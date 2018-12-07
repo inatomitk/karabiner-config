@@ -11,15 +11,28 @@
           }
         },
         "to": [{
-          "key_code": "fn"
+          "set_variable": {
+            "name": "symbol",
+            "value": 1
+          }
+        }],
+        "to_after_key_up": [{
+          "set_variable": {
+            "name": "symbol",
+            "value": 0
+          }
         }]
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "a",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -29,10 +42,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "a",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -42,10 +60,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "w",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -55,10 +77,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "w",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -68,10 +95,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "e",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -81,10 +112,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "e",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -94,10 +130,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "r",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -107,10 +147,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "r",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -120,10 +165,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "t",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -133,10 +182,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "t",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -146,10 +200,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "y",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -159,10 +217,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "y",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -172,10 +235,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "u",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -185,10 +252,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "u",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -198,10 +270,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "i",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -211,10 +287,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "i",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -224,10 +305,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "o",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -237,10 +322,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "o",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -250,10 +340,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "l",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -263,10 +357,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "l",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -276,10 +375,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "s",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -289,10 +392,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "s",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -302,10 +410,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "d",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -315,10 +427,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "d",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -328,10 +445,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "f",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -341,10 +462,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "f",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -354,10 +480,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "g",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -367,10 +497,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "g",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -380,10 +515,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "h",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -393,10 +532,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "h",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -406,10 +550,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "j",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -419,10 +567,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "j",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -432,10 +585,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "k",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
@@ -445,10 +602,15 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "k",
           "modifiers": {
-            "mandatory": ["shift", "fn"]
+            "mandatory": ["shift"]
           }
         },
         "to": [{
@@ -458,10 +620,14 @@
       },
       {
         "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
         "from": {
           "key_code": "n",
           "modifiers": {
-            "mandatory": ["fn"],
             "optional": ["shift"]
           }
         },
