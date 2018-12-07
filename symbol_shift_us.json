@@ -276,6 +276,24 @@
           "value": 1
         }],
         "from": {
+          "key_code": "n",
+          "modifiers": {
+            "mandatory": ["shift"]
+          }
+        },
+        "to": [{
+          "key_code": "7",
+          "modifiers": ["shift"]
+        }]
+      },
+      {
+        "type": "basic",
+        "conditions": [{
+          "type": "variable_if",
+          "name": "symbol",
+          "value": 1
+        }],
+        "from": {
           "key_code": "i",
           "modifiers": {
             "optional": ["shift"]
