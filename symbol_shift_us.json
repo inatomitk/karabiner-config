@@ -31,7 +31,7 @@
           "value": 1
         }],
         "from": {
-          "key_code": "a",
+          "key_code": "s",
           "modifiers": {
             "optional": ["shift"]
           }
@@ -48,7 +48,7 @@
           "value": 1
         }],
         "from": {
-          "key_code": "a",
+          "key_code": "s",
           "modifiers": {
             "mandatory": ["shift"]
           }
@@ -399,7 +399,7 @@
           "value": 1
         }],
         "from": {
-          "key_code": "s",
+          "key_code": "c",
           "modifiers": {
             "optional": ["shift"]
           }
@@ -416,7 +416,7 @@
           "value": 1
         }],
         "from": {
-          "key_code": "s",
+          "key_code": "c",
           "modifiers": {
             "mandatory": ["shift"]
           }
@@ -539,7 +539,7 @@
           "value": 1
         }],
         "from": {
-          "key_code": "h",
+          "key_code": "k",
           "modifiers": {
             "optional": ["shift"]
           }
@@ -556,7 +556,7 @@
           "value": 1
         }],
         "from": {
-          "key_code": "h",
+          "key_code": "k",
           "modifiers": {
             "mandatory": ["shift"]
           }
@@ -574,7 +574,7 @@
           "value": 1
         }],
         "from": {
-          "key_code": "j",
+          "key_code": "h",
           "modifiers": {
             "optional": ["shift"]
           }
@@ -591,7 +591,7 @@
           "value": 1
         }],
         "from": {
-          "key_code": "j",
+          "key_code": "h",
           "modifiers": {
             "mandatory": ["shift"]
           }
@@ -609,7 +609,7 @@
           "value": 1
         }],
         "from": {
-          "key_code": "k",
+          "key_code": "j",
           "modifiers": {
             "optional": ["shift"]
           }
@@ -626,7 +626,7 @@
           "value": 1
         }],
         "from": {
-          "key_code": "k",
+          "key_code": "j",
           "modifiers": {
             "mandatory": ["shift"]
           }
