@@ -1,4 +1,4 @@
-# karabiner-modification
+# karabiner-config
 
 ## install
 
